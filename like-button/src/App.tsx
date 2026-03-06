@@ -1,9 +1,9 @@
 import "./App.css";
- 
+import { LikeButton } from "./like-button";
 function App() {
   return (
     <>
-      <h1>Hello React</h1>
+      <LikeButton />
     </>
   );
 }
